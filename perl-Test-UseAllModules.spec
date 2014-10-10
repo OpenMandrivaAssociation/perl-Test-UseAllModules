@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 0.14
-Release:	1
+Release:	2
 
 Summary:	Do use_ok() for all modules MANIFESTed
 License:	GPL+ or Artistic
