@@ -8,7 +8,7 @@ Release:	3
 Summary:	Do use_ok() for all modules MANIFESTed
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Test/Test-UseAllModules-0.14.tar.gz
 
 BuildRequires:	perl-devel
