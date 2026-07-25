@@ -1,15 +1,15 @@
 %define upstream_name    Test-UseAllModules
-%define upstream_version 0.14
+%define upstream_version 0.17
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 0.14
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Do use_ok() for all modules MANIFESTed
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Test/Test-UseAllModules-0.14.tar.gz
+Url:		https://github.com/charsbar/test-useallmodules
+Source0:	https://cpan.metacpan.org/authors/id/I/IS/ISHIGAKI/Test-UseAllModules-0.17.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
